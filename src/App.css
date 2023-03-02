@@ -1,38 +1,142 @@
-.App {
-  text-align: center;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@media only screen and (max-width:990px) {
+    .navbar-brand {
+        margin-left: 0rem;
+    }
+
+    .section-title h2 {
+        font-size: 1.5rem;
+    }
+
+    .skills-left-col h5 {
+        font-size: 1rem;
+    }
+
+    .wave-img {
+        display: none;
+    }
+
+    .feature-box a {
+        margin-right: 10px;
+    }
+
+    .left-col img {
+        margin: 0% 16%;
+    }
+
+    #work {
+        margin: 15% auto;
+    }
+
+    .work-card {
+        margin: 2% auto;
+    }
+
+    .contact-wrapper {
+        margin: 2% 11%;
+    }
+
+    .footer-div {
+        margin-top: 12%;
+    }
+
+    .footer-title h2 {
+        padding: 8%;
+    }
+
+    .contact-one {
+        display: flex;
+        justify-content: center;
+    }
+
+    .small {
+        width: 290px;
+    }
+
+    .image img {
+        display: none;
+    }
+
+    .image2 img {
+        display: none;
+    }
+
+    .contact-one .resume {
+        width: 180px;
+    }
+
+    .contact {
+        width: 125px;
+    }
+
+    #class img {
+        display: none;
+    }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* for other */
+
+#menu {
+    display: flex;
+    justify-content: flex-end;
 }
 
-.App-link {
-  color: #61dafb;
+.image img {
+    width: 550px;
+    height: 400px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.image2 img {
+    width: 550px;
+    height: 320px;
+}
+
+.messege {
+    margin: 6%;
+    text-align: center;
+    display: none;
+}
+
+.messege .success {
+    color: green;
+}
+
+.messege .denger {
+    color: red;
+}
+
+#class img {
+    width: 700px;
+    height: 500px;
+    margin-top: 50px;
+}
+
+#class {
+    margin: auto;
+}
+
+.git {
+    font-size: 24px;
+    color: rgb(53, 156, 53);
+    text-align: center;
+}
+
+.git a {
+    color: rgb(196, 82, 82);
+    text-decoration: none;
+}
+
+.git a:hover {
+    color: #0E2431;
+    text-decoration: underline;
 }

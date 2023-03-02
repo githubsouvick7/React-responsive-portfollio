@@ -1,0 +1,50 @@
+#about-us {
+    margin: 1% auto;
+}
+
+#about-us h2 {
+    color: #4644a5;
+}
+
+.section-title h2 {
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: center;
+    color: #ffbe40;
+}
+
+.left-col img {
+    width: 70%;
+    margin: 0% 8%;
+}
+
+.right-col p {
+    margin: 8% auto;
+}
+
+.resume {
+    text-decoration: none !important;
+    background-color: rgb(253, 253, 253);
+    color: #000000;
+    border-radius: 0.5rem;
+    padding: 10px 12px;
+    border: 2px solid #ffbe40 !important;
+    transition: .3s;
+}
+
+.resume:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 10px 36px rgb(0 0 0 / 25%);
+    border: 2px solid black !important;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8% auto;
+}
+
+.image2 img {
+    height: 350px;
+}
